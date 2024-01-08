@@ -9,15 +9,15 @@ with col1:
   st.image("./cat1.jpeg",caption="Persion Cat",width=500,use_column_width=True)
   st.write("Persian cats are cute")
 with col2:
-  st.subheader("Ragdoll Cat")
+  st.markdown("<h3 style='color: blue;'>Ragdoll Cat</h3>", unsafe_allow_html=True)
   st.image("./cat2.jpeg",caption="Ragdoll Cat",width=500,use_column_width=True)
   st.write("Ragdoll cats are white in colour")
 with col3:
-  st.subheader("House Cat")
+  st.markdown("<h3 style='color: blue;'>House Cat</h3>", unsafe_allow_html=True)
   st.image("./cat3.jpeg",caption="house Cat",width=500,use_column_width=True)
   st.write("house cats are very calm")
 with col4:
-  st.subheader("Random Cat")
+  st.markdown("<h3 style='color: blue;'>Random Cat</h3>", unsafe_allow_html=True)
   st.image("./cat4.jpeg",caption="Random Cat",width=500,use_column_width=True)
   st.write("Random cats are different in nature")
   
