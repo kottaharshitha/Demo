@@ -1,10 +1,11 @@
+
 import streamlit as st
 st.set_page_config(page_title='cats')
 st.header("Types of Cats")
 
 col1,col2,col3,col4 = st.columns(4)
 with col1:
-  st.subheader("Persian Cat")
+  st.markdown("<h3 style='color: blue;'>Persian Cat</h3>", unsafe_allow_html=True)
   st.image("./cat1.jpeg",caption="Persion Cat",width=500,use_column_width=True)
   st.write("Persian cats are cute")
 with col2:
